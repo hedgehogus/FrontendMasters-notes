@@ -11,3 +11,18 @@ git config --global --unset rerere.enabled
 
 git config --get user.email
 git config --get user.name
+
+## listing out values
+
+``git config --list`` where it will list out the entire config
+``git config --get-regexp <regex>`` - this takes a pattern and looks for all names matching
+
+## remove values
+``git config --remove-section sectionname``
+
+## unset values 
+``--unset`` - unsets one key
+``--unset-all`` - unsets all matching keys
+
+## change default branch name
+``git config -add --global init.defaultBranch 'branchname'``
