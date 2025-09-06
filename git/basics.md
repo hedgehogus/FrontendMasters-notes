@@ -18,7 +18,7 @@ once the git folder has been deleted, the repo does not exist
 ## view history
 ```git log```
 
-```git log --graph --decorate'''git log --graph --decorate
+```git log --graph --decorate'''git log --graph --decorate```
 
 ## inspect files
 ``git cat-file -p <some-sha>``
