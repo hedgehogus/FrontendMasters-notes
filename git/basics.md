@@ -5,7 +5,7 @@
 once the git folder has been deleted, the repo does not exist
 
 ## add files to the index (staging area)
-``` git add <path-to-file | pattern>```
+``` git add <path-to-file | pattern>```    
 ``` git add .```
 
 ## commit staged files
@@ -22,17 +22,17 @@ once the git folder has been deleted, the repo does not exist
 ```git log --graph --decorate'''git log --graph --decorate```
 
 ## inspect files
-``git cat-file -p <some-sha>``
+``git cat-file -p <some-sha>``   
 this will echo out the contents of the sha. This can be a commit, a tree or a blob 
 
 ## create a branch
-``git branch foo`` - create a branch
+``git branch foo`` - create a branch     
 ``git branch`` - shows a list of branches
 
 ## switching branches
 ```
-git switch <branch name>
-git checkout <branch name>
+git switch <branch name>   
+git checkout <branch name>   
 ```
 ``git checkout -b merge-foo``
 
@@ -46,5 +46,11 @@ git checkout <branch name>
 ``` git rebase master```
 
 ## history of mowing through branches 
-``` git reflog```
+``` git reflog```   
 `` git reflog -3``` - 3 last logs
+
+## delete branch 
+```git branch -D baz ```
+
+## Git cherry Pick
+``` git cherry-pick <some sha>```
