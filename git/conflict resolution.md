@@ -10,7 +10,7 @@ git stash show [--index <index>]
 ```
    
 ## to pop the latest stash
-``` git stash pop```
-``` git stash pop --index 1```
-
+``` git stash pop```   
+``` git stash pop --index 1```   
+   
 `` git reset --soft HEAD~1`` - return commited change
