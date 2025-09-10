@@ -22,3 +22,6 @@ fetches the changes and then merges those changes into your branch
 ``` git config --add --global pull.rebase true```   
 or    
 ``` git pull --rebase``` - each time
+# push
+```git push```
+- fetch and merge for them
