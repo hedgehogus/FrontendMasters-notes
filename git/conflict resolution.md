@@ -6,7 +6,8 @@ The command saves your local modifications away and reverts the working director
 shashes can be listed out:   
 ``` git stash list
 git stash show //more readable
-git stash show [--index <index>]```
+git stash show [--index <index>]
+```
    
 ## to pop the latest stash
 ``` git stash pop```
