@@ -34,3 +34,8 @@ Change **config** option **rerere.enabled to true**
 ## select only ours or theirs
 ```git checkout --ours README.MD```   
 ```git checkout --theirs README.MD```   
+
+## interactive rebase Steps
+```git rebase -i <commit-ish>```   
+<commitish> - how many commits back from head
+``` git rebase -i HEAD~3```
