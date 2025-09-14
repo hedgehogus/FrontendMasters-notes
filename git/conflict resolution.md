@@ -23,3 +23,14 @@ git stash show [--index <index>]
 
 ## rebase
 ``` git pull --rebase```
+
+## RERERE
+REuse Recorded Resolutions      
+Change **config** option **rerere.enabled to true**
+
+## look local congig options 
+```git config --list --local```
+
+## select only ours or theirs
+```git checkout --ours README.MD```   
+```git checkout --theirs README.MD```   
