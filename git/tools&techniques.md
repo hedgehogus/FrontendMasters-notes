@@ -43,4 +43,12 @@ if you need to make a commit that is partially finished and you want to edit tha
 1. add ```git worktree add <path>```
 2. list ``` git worktree list```
 3. delete ```git worktree remove ../foo-bar`` or ``rm -rf`` and ``git worktree prune``
+ 
+## Tags
+is immutable point in history   
+How to use tags   
+``` git tag <name>``` - to create   
+``` git tag -d <name>``` - delete   
+``` git tag``` - to list   
+``` git checkout <tagname>``` - to checkout a tag   
 
