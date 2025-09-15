@@ -28,3 +28,19 @@ example:
 ```git revert <commitish>```   
 ```git revert <sha>```
 - creates a new commit with revert changes (inverse commit)
+
+## soft reset
+if you need to make a commit that is partially finished and you want to edit that commit and change the contents   
+```git reset --soft HEAD~1```
+
+## amend
+```git commit --amend``` allows you to meld the current staged changes into the previous commit and edit the message
+
+## hard reset
+```git reset --hard``` will destroy files and worktree changes (staged changes). Not staged are kept
+
+## Worktrees
+1. add ```git worktree add <path>```
+2. list ``` git worktree list```
+3. delete ```git worktree remove ../foo-bar`` or ``rm -rf`` and ``git worktree prune``
+
