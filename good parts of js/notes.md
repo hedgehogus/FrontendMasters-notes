@@ -21,3 +21,29 @@ https://jex.im/regulex/#!flags=&re=%5E(a%7Cb)*%3F%24
 - Method form ``thisObject.methodName(arguments)``
 - Constructor form ``new FunctionObject(arguments)``
 - Apply form ``functionObject.apply(thisObject, [arguments]``
+
+## Meta Object API
+
+```
+Object.defineProperty(object, key, descriptor)
+Object.definePropertires(object, object_of_descriptors)   
+
+Object.getOwnPropertyDescriptor(object, key)
+```
+## Property descriptor
+```
+{
+   get: function() {},
+   set: function() {},
+   configurable: false,
+   value: bar,
+   writabble: true,
+   enumerable: true,
+}
+```
+- value: any
+- writable: boolean
+- enumerable: boolean
+- configurable: boolean
+- get: function() {return value}
+- set: function(value)
