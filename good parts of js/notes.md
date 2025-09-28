@@ -47,3 +47,9 @@ Object.getOwnPropertyDescriptor(object, key)
 - configurable: boolean
 - get: function() {return value}
 - set: function(value)
+
+## object Extensibility
+- Object.preventExtensions(object) //refuse to accept new properties
+- Object.seal(object)
+- Object.freeze(object) // makes every property readonly
+  
