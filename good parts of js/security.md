@@ -17,3 +17,12 @@ The more secrets you have the harder they are to keep
 
 ## False security is worse than no security
 Unnecessary expense and confusion of risk
+
+### Cross Site Scripting (XSS)
+## why is there
+- too many languages in the web stack, each with ot's own encoding, quoting, commenting and escapement convetions
+- each can be nested inside of each other
+- browsers do heroic things to make sense of malformed content
+- template-based web frameworks are optimized for xss injections
+- the javascript global object gives every scrap of script the same set of powerful capabilities
+- as bad as it is at security, the browser is vast improvement over everithing else
