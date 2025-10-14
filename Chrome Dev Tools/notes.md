@@ -10,3 +10,7 @@
 - Animation (smooth, fast)
 - Idle (how fast the app become idle)
 - Load (time)
+
+## recent element from dom in console 
+ - $0 most recent
+ - $1 second most recent
