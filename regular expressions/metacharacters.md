@@ -15,3 +15,10 @@ matches 'hot', ' hat', 'h t', 'h@t', 'h  t'(with tab) etc
 matches 'h.t'
 
 ``\\`` - escaping backslash
+
+## control characters
+- ``\t`` - tab
+- ``\v`` - vertical tab
+- ``\n`` - newline
+- ``\r`` - carriage return
+newline or carriage return symbol using depends on the system (mac or windows)
