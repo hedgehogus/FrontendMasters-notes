@@ -20,5 +20,5 @@ matches 'h.t'
 - ``\t`` - tab
 - ``\v`` - vertical tab
 - ``\n`` - newline
-- ``\r`` - carriage return
+- ``\r`` - carriage return     
 newline or carriage return symbol using depends on the system (mac or windows)
