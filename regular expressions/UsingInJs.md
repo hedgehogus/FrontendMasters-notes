@@ -18,6 +18,13 @@ regex1.exec(txt) // ['world', index: 6, input: 'hello world', groups: undefined]
 ```   
 returns array of actual match
 
+## regex.toString()
+returns a string of the redular expression syntax
+```
+let regex1 = /world\s/;
+regex1.toString(); //  '/world\\s/'
+```
+
 ## txt.match(regex1)
 ```
 let regex1 = /world/;
