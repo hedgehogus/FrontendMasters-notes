@@ -1,6 +1,7 @@
 ## two ways to create regex
-``` let regex1 = new RegExp('hello');
-    let regex2 = /world/;
+```
+let regex1 = new RegExp('hello');
+let regex2 = /world/;
 ```    
 ## regex1.test(txt)
 ```
