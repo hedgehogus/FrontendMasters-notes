@@ -41,6 +41,6 @@ maches 'gray', 'grey', but not 'graey'
 - ``\d [0-9]`` - digit
 - ``\w [a-zA_Z0-9_]`` - word
 - ``\s [ \t\r\n]`` - space
-- ``\D [^0-9] - not digit
+- ``\D [^0-9]`` - not digit
 - ``\W [^a-zA_Z0-9_]`` - not word
 - ``\S [^ \t\r\n]`` - not space
