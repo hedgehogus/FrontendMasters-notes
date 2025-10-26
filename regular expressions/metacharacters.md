@@ -22,3 +22,25 @@ matches 'h.t'
 - ``\n`` - newline
 - ``\r`` - carriage return     
 newline or carriage return symbol using depends on the system (mac or windows)
+
+## [] - character sets
+``` /gr[ae]y/```   
+maches 'gray', 'grey', but not 'graey'
+```/[abcd]/``` only matches one of this letters
+
+## Specifying a Range (-)
+```/[1-4]/``` matches 1 2 3 4      
+```/[\-.]/``` matches - and .    
+```/[a-e]/``` range of letters   
+
+## ^ - Excluding a character Set 
+```/0x[^0-9A-F][^0-0A-F]/``` excluding all set 0-9A-F   
+^ should go the first character after [
+
+## Shorthand for character sets
+- ``\d [0-9]`` - digit
+- ``\w [a-zA_Z0-9_]`` - word
+- ``\s [ \t\r\n]`` - space
+- ``\D [^0-9] - not digit
+- ``\W [^a-zA_Z0-9_]`` - not word
+- ``\S [^ \t\r\n]`` - not space
