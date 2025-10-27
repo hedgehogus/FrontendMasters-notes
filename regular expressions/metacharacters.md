@@ -44,3 +44,10 @@ maches 'gray', 'grey', but not 'graey'
 - ``\D [^0-9]`` - not digit
 - ``\W [^a-zA_Z0-9_]`` - not word
 - ``\S [^ \t\r\n]`` - not space
+
+## Repetitions 
+`` + `` - matches one or more occurrences   
+`` ? `` - matches zero or one occurrences   
+`` * `` - matches zero or more occurrences  
+`` *? `` - lazy repetition (as less characters as possible)
+goes after a symbol or a group
