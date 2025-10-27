@@ -51,3 +51,9 @@ maches 'gray', 'grey', but not 'graey'
 `` * `` - matches zero or more occurrences  
 `` *? `` - lazy repetition (as less characters as possible)
 goes after a symbol or a group
+
+## Repetition amount
+``{min,max}`` - matches min to max occurrences
+``{num}`` - matches exect num occurrences
+``{min,} - matches min or more occurrences
+
