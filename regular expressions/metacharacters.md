@@ -57,3 +57,10 @@ goes after a symbol or a group
 ``{num}`` - matches exect num occurrences
 ``{min,} - matches min or more occurrences
 
+## Anchored expressions
+``^`` - anchors the match to the start of the line (works for each line with m flag)       
+``$`` - anchors the match to the end of the line (works for each line with m flag)    
+``\b`` - word boundary - pattern bounded by a non-word character   
+``\B`` - Nonword boundary - pattern bounded by a word character   
+`` /\bplan\b/g`` - matches plan but not plant (only full word)
+`` /plan\B/g`` - matches plant or planet but not plan
