@@ -64,3 +64,16 @@ goes after a symbol or a group
 ``\B`` - Nonword boundary - pattern bounded by a word character   
 `` /\bplan\b/g`` - matches plan but not plant (only full word)
 `` /plan\B/g`` - matches plant or planet but not plan
+
+## | - Specifying options
+``/\bmonday|turesday|wednesday|thursday|friday|saturday|sunday\b/ig``   
+
+## () - Grouping
+``/([a-d][1-5]){5}/g`` - matches b1d2a3b4c5    
+``/\b(monday|turesday|wednesday|thursday|friday|saturday|sunday)\b/ig``
+
+## reusing Groups \1
+``/(yo)\1/g``   - matches yoyo    
+``/^(\d\d\d\d)[-./](\d{1,2})[-./]\)$/g`` - reference to group should have the same text inside (2018-9-9 but not 2018-9-08)    
+``/^(\d\d\d\d)([-./])(\d{1,2})\2(\d{1,2})$/g``    
+``/^(?:\d\d\d\d)([-./])(\d{1,2})\1(\d{1,2})$/g``  - making group non capturing (without index) by using ``?:``   
