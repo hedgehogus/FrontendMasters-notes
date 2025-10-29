@@ -17,7 +17,7 @@ let regex1 = /world/;
 let txt = 'world hello world';
 regex1.exec(txt) // ['world', index: 6, input: 'hello world', groups: undefined]
 ```   
-returns array of actual match
+returns array of actual match (array has capturing groups inside)
 
 ## regex.toString()
 returns a string of the redular expression syntax
