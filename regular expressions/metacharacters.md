@@ -73,7 +73,15 @@ goes after a symbol or a group
 ``/\b(monday|turesday|wednesday|thursday|friday|saturday|sunday)\b/ig``
 
 ## reusing Groups \1
+we can detect repetitive groups inside the text   
 ``/(yo)\1/g``   - matches yoyo    
 ``/^(\d\d\d\d)[-./](\d{1,2})[-./]\)$/g`` - reference to group should have the same text inside (2018-9-9 but not 2018-9-08)    
 ``/^(\d\d\d\d)([-./])(\d{1,2})\2(\d{1,2})$/g``    
 ``/^(?:\d\d\d\d)([-./])(\d{1,2})\1(\d{1,2})$/g``  - making group non capturing (without index) by using ``?:``   
+
+## (?=) Lookahead groups
+``/\w+(?=\.com)/g`` - lookahead group (?=\.com)       
+password check regex - ``^/(?=.{8,})(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9]).*$/g`` - contains number, uppercase, lowercase, more that 8 symbols
+
+## (?!) Negative lookahead Group
+``^/(?=.{8,})(?=.*[A-Z])(?=.*[a-z])(?!.*[0-9]).*$/g`` - this string could not include any number  ``(?!.*[0-9])``
