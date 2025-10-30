@@ -85,3 +85,10 @@ password check regex - ``^/(?=.{8,})(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9]).*$/g`` - c
 
 ## (?!) Negative lookahead Group
 ``^/(?=.{8,})(?=.*[A-Z])(?=.*[a-z])(?!.*[0-9]).*$/g`` - this string could not include any number  ``(?!.*[0-9])``
+
+## representing unicode symbols
+``\u0065``   
+
+## ES6 Unicode (more than 4 symbols to represent) \u1D11E
+need to use u-flag for support   
+``/\u{1D11E}/u``
