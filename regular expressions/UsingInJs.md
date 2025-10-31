@@ -19,6 +19,16 @@ regex1.exec(txt) // ['world', index: 6, input: 'hello world', groups: undefined]
 ```   
 returns array of actual match (array has capturing groups inside)
 
+### iterating over matches with regex object
+```
+while(match = regex.exec(phrase)) {
+  if (match.index == regex.lastIndex) {
+    regex.lastIndex++;
+  }
+  console.log(match)
+}
+```
+
 ## regex.toString()
 returns a string of the redular expression syntax
 ```
