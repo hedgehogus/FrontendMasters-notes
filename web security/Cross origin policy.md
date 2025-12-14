@@ -21,12 +21,12 @@ Options for Content Security Policy
 - none
 - hash
 - nonce
-- unsafe-inline
+- unsafe-inline  
 
-header:
-Content-Serucrity-Policy: <directive> '<origin>'
-`` Content-SecurityPolicy: default-src 'self'``
-`` Content-SecurityPolicy: img-src 'self'``
-`` Content-SecurityPolicy: font-src 'self'``
-`` Content-SecurityPolicy: script-src 'self'``
-`` Content-SecurityPolicy: style-src 'self'``
+**header:  **
+Content-Serucrity-Policy: <directive> '<origin>'  
+`` Content-SecurityPolicy: default-src 'self'``   
+`` Content-SecurityPolicy: img-src 'self'``   
+`` Content-SecurityPolicy: font-src 'self'``   
+`` Content-SecurityPolicy: script-src 'self'``   
+`` Content-SecurityPolicy: style-src 'self'``   
