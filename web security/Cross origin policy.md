@@ -20,13 +20,22 @@ Options for Content Security Policy
 - self
 - none
 - hash
-- nonce
+- nonce (number used only once) pseudo random
 - unsafe-inline  
 
-**header:  **
-Content-Serucrity-Policy: <directive> '<origin>'  
+**header:**
+Content-Serucrity-Policy: \<directive> '\<origin>'  
 `` Content-SecurityPolicy: default-src 'self'``   
 `` Content-SecurityPolicy: img-src 'self'``   
 `` Content-SecurityPolicy: font-src 'self'``   
 `` Content-SecurityPolicy: script-src 'self'``   
 `` Content-SecurityPolicy: style-src 'self'``   
+
+## Subresource Integrity
+```
+<script src="http://some.external.origin"   
+  integrity="sha256_XXX"   
+  crossorigin="anonymous"   // - dont send cookies to thos origin
+>
+</script>
+```
