@@ -8,3 +8,5 @@
 ## stored example 
 ```
 <img src="xyz" style="display: none" onerror="alert(`I have your cookies: ${document.cookie}`);">
+
+fixes by sanityzation and Content Security Polisy
