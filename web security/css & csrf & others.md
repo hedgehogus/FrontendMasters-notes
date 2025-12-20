@@ -16,8 +16,9 @@ fixes by sanityzation and Content Security Policy
 # Cross-site request forgery
 ## how to prevent
 
-1. Anti-CSRF tokens
-   ``` Set-Cookie: Csrf-Token=123random_unique_token```
+1. Anti-CSRF tokens    
+   ``` Set-Cookie: Csrf-Token=123random_unique_token```    
    request:   
    ```HTTP Header: X-Csrf-Token: 123random_unique_token```   
 3. SameSite Cookies (same site strict cookies attribute)
+   same-site: lax
