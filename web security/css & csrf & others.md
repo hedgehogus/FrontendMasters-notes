@@ -20,5 +20,12 @@ fixes by sanityzation and Content Security Policy
    ``` Set-Cookie: Csrf-Token=123random_unique_token```    
    request:   
    ```HTTP Header: X-Csrf-Token: 123random_unique_token```   
-3. SameSite Cookies (same site strict cookies attribute)
-   same-site: lax
+3. SameSite Cookies (same site strict cookies attribute)   
+   same-site: lax - allows top level navigation
+
+# Hacking JWT Tokens
+- can expose information about user
+- algorythm type can be set to "none" in versions <=1.3.0
+- changing "RS256"(asymmetric algorithm) to "HS256"(symmetric)
+- brute forcing the "secret" (secret should be strong, long and complicated)
+- JWT getting stolen (have a short expiry date) - 20 minutes after issuing
