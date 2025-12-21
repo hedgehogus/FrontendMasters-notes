@@ -1,3 +1,30 @@
+# Authentication vs Authorization
+## Authentication 
+proves one's identity
+- login and password
+- secret sink sent via email
+- secret code send via sms
+- iris scan
+- fingerprint scan
+- other something unique
+
+## Authorization
+Grants access to the system resources
+**Access control** - protection of system resources against unauthorized access
+
+## Access control models
+- Mandatory Access Control(MAC)
+- Discretionaly Access Control(DAC)
+- History-Based Access Control(HBAC)
+- Attribute-Based Access Control(ABAC)
+- others
+- Role-Based Access Control (RBAC)
+
+## Vectors of authorization
+- ownership (does the entity belong to th users account)
+- role (does the user have the owner/reader role)
+- other rules (sharing entities betwee accounts. Like reading/liking a comment)
+
 ## server side security 
 - server side validation
 - http security headers
