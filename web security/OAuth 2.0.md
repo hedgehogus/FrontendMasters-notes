@@ -55,4 +55,16 @@ An extension to the authorization code flow opening the gates for Public clients
 - It mitigates the risk of stolen authorization Code
 - Public Client must authenticate itself (Confidential Client uses client_id + client_secret)
 - Verification is executed by the authorization server
+
+## OpenID connect
+Authentication layer on top of OAuth
+- Id Token
+- Discovery mechanism
+- GET /userinfo
+- session management features
+  ```
+  &scope=openid profile email
+  ```
+
+
    
