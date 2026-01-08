@@ -21,3 +21,10 @@ Free and Open sourse
 - KeyCloak
 - Identity Server
 - WSo2 identity server
+
+## Authentication transaction flow at Auth0
+
+1. An app initiates an authentication request to Auth0
+2. Auth0 routes the request to an Identity Provider trough a configured connection
+3. the user authenticates successfully
+4. The ID token and/or Access Token is passed through the rules pipeline, then sent to the app
