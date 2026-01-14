@@ -24,3 +24,9 @@
 - **User Feedback** (Incorporating feedback from users can help improve the system design)
 - **Matket Trends** (Understanding the demands and trends of the market can also affect the choice of system design)
 - **Legal and Regulatory Requirements** (Compliance with laws and regulations may dictate certain aspects of the system design)
+
+## Design stages
+- Research
+- Implement
+- Iterate
+
