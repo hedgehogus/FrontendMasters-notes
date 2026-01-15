@@ -30,3 +30,11 @@
 - Implement
 - Iterate
 
+## Implementing Systems Designs
+- chose the appropriate design
+- Define the architecture
+- Develop the architecture
+- Test the architecture
+- Deploy the architecture
+- Maintain the architecture
+
