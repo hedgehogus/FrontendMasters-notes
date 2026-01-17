@@ -51,4 +51,10 @@ Generic services could be part of monolithic application where all services run 
 - **Development and testing**: Writing and testing applications is more difficult due to it being a distributed system
 - **Data Management**: Managing data consistency can be challenging
 
+### Use Cases:
+- **E-commerce platforms**: They often need to handle high volumes of transactions and user interactions, which can be efficiently managed through independent microservices
+- **Social media platforms**: The various functionalities like posting, messaging, and notifications can be divided into separate microservices.
+- **Streaming services**: Microservices can help handle the heavy load and deliver smooth streaming experience
+- **Online gaming platforms**: They can use microseervices to manage game logic, player data and real-time multiplayer interactions separately
+- **Large-scale IoT(Internet of things) systems**: Each device or sensor type can be managed by a dedicated microservice
 
