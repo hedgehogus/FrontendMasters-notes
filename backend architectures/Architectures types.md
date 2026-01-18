@@ -66,5 +66,5 @@ Serverless architectures, the app logic is still run on servers, but all the ser
 ### Pros:
 - No server management is required
 - Cost based on usage, not on pre-purchased capacity
-- Automated scaling
+- Automated scaling (Ddos problem)
 
