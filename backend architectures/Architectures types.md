@@ -75,3 +75,7 @@ Serverless architectures, the app logic is still run on servers, but all the ser
 - Troubleshooting and debugging is also more complex
 - Relying on cloud infrastructure
 
+### Use Cases:
+- **Real-time file processing**: As soon as a file is uploaded in S3, AWS Lambda can trigger a function to process it
+- **Real-time stream processing**: Perform real-time analytics on data streams using Kinesis
+
