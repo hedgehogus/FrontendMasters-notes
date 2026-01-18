@@ -79,4 +79,5 @@ Serverless architectures, the app logic is still run on servers, but all the ser
 - **Real-time file processing**: As soon as a file is uploaded in S3, AWS Lambda can trigger a function to process it
 - **Real-time stream processing**: Perform real-time analytics on data streams using Kinesis
 - **Extract, transform, load(ETL)**: Perform ETL on demand. For example, when a new file is uploaded to S3, AWS Lambda can trigger to process the data and load it into a database
+- **Websites**: Websites that are purely static (HTML, CSS, JS) can be served from S3 directly
 
