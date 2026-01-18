@@ -58,3 +58,8 @@ Generic services could be part of monolithic application where all services run 
 - **Online gaming platforms**: They can use microseervices to manage game logic, player data and real-time multiplayer interactions separately
 - **Large-scale IoT(Internet of things) systems**: Each device or sensor type can be managed by a dedicated microservice
 
+## Serverless
+**Serverless** architecture refers to applications that significantly depend on third-party services (backend-as-a-service or **BaaS**) or on custom code that's run in ephemeral containers (fucntion as a service or **FaaS**)      
+Serverless architectures, the app logic is still run on servers, but all the server management is done by the cloud provider (AWS, Azure, GCP, etc). You just need to run your code, an the cloud provider takes care of the rest (uptime, scalability and server management)
+
+
