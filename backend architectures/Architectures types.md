@@ -66,5 +66,12 @@ Serverless architectures, the app logic is still run on servers, but all the ser
 ### Pros:
 - No server management is required
 - Cost based on usage, not on pre-purchased capacity
-- Automated scaling (Ddos problem)
+- Automated scaling
+
+### Cons:
+- The architecture can be more expesive for long-term applications
+- Automated scaling (DDoS cost problem, recursive calls, unexpected traffic spikes)
+- Testing can be difficult due to the environment's reliance of the Internet
+- Troubleshooting and debugging is also more complex
+- Relying on cloud infrastructure
 
