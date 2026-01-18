@@ -63,4 +63,7 @@ Generic services could be part of monolithic application where all services run 
       
 Serverless architectures, the app logic is still run on servers, but all the server management is done by the cloud provider (AWS, Azure, GCP, etc). You just need to run your code, an the cloud provider takes care of the rest (uptime, scalability and server management)
 
+### Pros:
+- No server management is required
+- Cost based on usage, not on pre-purchased capacity
 
