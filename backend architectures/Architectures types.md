@@ -81,3 +81,7 @@ Serverless architectures, the app logic is still run on servers, but all the ser
 - **Extract, transform, load(ETL)**: Perform ETL on demand. For example, when a new file is uploaded to S3, AWS Lambda can trigger to process the data and load it into a database
 - **Websites**: Websites that are purely static (HTML, CSS, JS) can be served from S3 directly
 
+## Evolution process
+1. **Start with Monolith** - most companies and/or projects start with a monolith design.
+2. **Split to services** - after a company or project grows there begins the need to "split out" functionsl logic into units for the folowing benefits
+3. 
