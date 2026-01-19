@@ -84,4 +84,4 @@ Serverless architectures, the app logic is still run on servers, but all the ser
 ## Evolution process
 1. **Start with Monolith** - most companies and/or projects start with a monolith design.
 2. **Split to services** - after a company or project grows there begins the need to "split out" functionsl logic into units for the folowing benefits
-3. 
+3. **Save with serverless** - after starting with a monolith, then separating logic with services, a system an futher benefit from serverless (save operations, resource and scaling costs)
