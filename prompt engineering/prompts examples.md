@@ -106,3 +106,13 @@ function toggleFavorite(promptId) {
 
 Feature Request: "Add a 5-star rating component to rate prompt effectiveness"
 ```
+A well structured one-shot prompt for feature implementation should include:
+1. A user story describing the feature need
+2. Technical requirements with bullet points
+3. Code structure with examples showing how to implement it
+4. UX considerations for the user interface
+this format provides a comprehensive example that guides the AI to respond in the same structured manner
+
+AI assistants are capable at crafting prompts for themselves. You can ask them to help break down complex tasks into smaller tasks and then help create the prompt.   
+You can specify a particular prompting technique you want to use (like one-shot prompting) and ask for help creating a good example.    
+You can also ask the AI to help parse down or make your prompts more efficient.
