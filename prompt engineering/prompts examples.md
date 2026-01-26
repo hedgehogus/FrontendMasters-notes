@@ -204,3 +204,6 @@ Each example prompt should include:
 2) Specific technical requirements
 3) Implementation details
 4) Expected deliverables(results) with a data structure and integration notes
+
+
+You can use OpenAI's tokenizer tool to monitor token usage by copying and pasting your prompts to see how many tokens you're using. It's important to remember that tokens include your entire conversation history (input and output) and the system message, which all get appended every time you interact with the model.
