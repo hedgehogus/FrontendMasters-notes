@@ -14,7 +14,7 @@ Topic: [topic]
 
 Email: "Let's meet tomorrow at 2 PM in Conference Room B to discuss the Q4 budget."
 ```
-
+Structured output ensures consistent fromats every time, which is critical when connecting an LLM to other parts of an application. Without structured output, you might receive a paragraph, sentence, array or JSON object inconsistently, making it impossible to reliably process the data in subsequent application steps. It allows you to know exactly what format to expect and how to handle it/
 ```
 Create a metadata tracking system for a prompt journal web application that is attached to our prompts in our prompt library.
 
