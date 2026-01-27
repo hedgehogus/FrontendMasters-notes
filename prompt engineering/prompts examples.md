@@ -207,3 +207,12 @@ Each example prompt should include:
 
 
 You can use OpenAI's tokenizer tool to monitor token usage by copying and pasting your prompts to see how many tokens you're using. It's important to remember that tokens include your entire conversation history (input and output) and the system message, which all get appended every time you interact with the model.
+
+## Context placement
+- Where context is placed in prompts is important
+- Beginning > End > Middle for information retention
+- Models struggle with the middle of long contexts
+- Critical info should go first, supporting details last       
+  https://arxiv.org/abs/2307.03172
+
+  
