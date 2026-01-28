@@ -62,3 +62,13 @@ CONSTRAINTS:
 - Must work in browser environment
 - Include try/catch error handling
 ```
+
+## Chain of thought (COT) prompting
+- ask the model to show it's reasoning step-by-step
+- Breaks complex problems into intermediate steps
+- CoT (Zero-shot): "Let's think step by step"
+- Few-shot: Include reasoning steps in your examples
+```
+Can penguins fly?
+Think through this step by step.
+```
