@@ -72,3 +72,13 @@ CONSTRAINTS:
 Can penguins fly?
 Think through this step by step.
 ```
+```
+Step 1: Analyze what data needs to be exported (all prompts with metadata).
+Step 2: Design the export JSON schema including version number, export timestamp, statistics, and prompts array.
+Step 3: Create the export function that gathers data from local storage, validates integrity, creates a blob, and triggers download.
+Step 4: Create the import function that reads uploaded files, validates JSON structure and version, checks for duplicate IDs, and merges or replaces data.
+Step 5: Add error recovery with backup of existing data, rollback on failure, and detailed error messages.
+```
+## Emotiomal prompts
+- This is very important for my career
+- You'd better be sure
