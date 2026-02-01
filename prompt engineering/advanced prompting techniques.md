@@ -82,3 +82,93 @@ Step 5: Add error recovery with backup of existing data, rollback on failure, an
 ## Emotiomal prompts
 - This is very important for my career
 - You'd better be sure
+
+## Delimeters(,.)/XML tags
+- characters that create boundaries in your prompts
+- Tripple quotes, dashes, XML tags, markdown
+- Supports nesting and attributes for complex data organization
+- use semantic naming: <requirements>, <constraints>, <examples>
+```
+I need to research how existing tools handle prompt management and version control to inform architecture decisions
+for a prompt library I'm building and hoping to move to production.
+Please research and analyze different approaches using this structure:
+
+<research_area>
+<topic>Prompt Management Solutions</topic>
+<questions>
+- What tools currently exist for prompt library management?
+</questions>
+</research_area>
+
+<research_area>
+<topic>Collaboration Features</topic>
+<questions>
+- How do teams share Postman collections or Insomnia workspaces?
+- What permission models exist in developer tools?
+</questions>
+</research_area>
+
+<research_area>
+<topic>Technical Implementation Details</topic>
+<questions>
+- What databases do similar tools use (research from their engineering blogs)?
+- How do they handle search at scale?
+- What's their approach to data export/import?
+- How do they prevent abuse and implement rate limiting?
+</questions>
+</research_area>
+
+For each research area:
+1. Find concrete examples from real products
+2. Identify patterns across successful tools
+3. Highlight common failures or user complaints
+4. Estimate implementation complexity
+
+Then synthesize this into:
+- A competitive analysis matrix
+- Recommended features for our MVP vs future releases
+- Technical decisions informed by market research
+```
+
+## Personas
+- "You are a [role]"
+- Give the model a perspective
+- Activates relevant knowledge and vocabulary
+- Works mailnly for expertise, tone and style
+
+```
+Code review: 'You are a senior engineer focused on security and performance'
+
+Documentation: 'You are a technical writer who prioritizes clarity for beginners'
+
+Debugging: 'You are a systematic debugger who checks assumptions'
+
+Architecture: 'You are a solutions architect who considers scalability’”
+```
+
+Note: you can change personas mid-conversation to get different viewpoints on the same problem.
+```
+You are a Senior Engineer with experience building startups from zero to MVP.
+
+Our prompt library currently runs entirely in the browser with localStorage. We're considering making it a production-ready tool that teams can use. Create a comprehensive technical specification that includes:
+
+1. **System Architecture Document** that covers:
+   - Data persistence strategy (evaluate PostgreSQL vs DynamoDB vs Firebase)
+   - Authentication approach (OAuth, magic links, or API keys)
+   - Real-time collaboration requirements
+   - Rate limiting and abuse prevention
+   - Search infrastructure (full-text search vs vector embeddings)
+
+2. **API Design Specification** with:
+   - RESTful endpoints vs GraphQL evaluation
+   - Versioning strategy
+   - Pagination approach for large prompt libraries
+   - Webhook events for integrations
+
+3. **Scaling Projections**:
+   - Start with 100 users → path to 1M users
+   - Cost per user at different tiers
+   - Performance benchmarks to maintain
+
+Use your experience to make opinionated recommendations. Write as if you're presenting to a junior engineering team.
+```
