@@ -16,4 +16,7 @@ You can write or edit instructions(long term rules) in Project memory or user me
 use *#* before text for adding to memory
 
 ## ultrathink
-keyword for maximum reasoning
+keyword activates **thinking mode** for maximum reasoning, uses more time and more tokens
+
+## planning mode
+shift + tab for switching
