@@ -20,3 +20,6 @@ keyword activates **thinking mode** for maximum reasoning, uses more time and mo
 
 ## planning mode
 shift + tab for switching
+
+## /security-review
+complete a security review of the pending changes on the current branch
