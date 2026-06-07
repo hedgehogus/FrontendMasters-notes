@@ -23,3 +23,6 @@ shift + tab for switching
 
 ## /security-review
 complete a security review of the pending changes on the current branch
+
+## /consolidate-memory
+clear context window with memory from previous session
