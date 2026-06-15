@@ -29,3 +29,9 @@ clear context window with memory from previous session
 
 ## /compact
 Compacts the current conversation by summarizing it, freeing up context window space while preserving the essential thread of work so the session can continue.
+
+## using sub-agents to control context window
+Add phrases like:
+- let's use a task sub-agent to research this first
+- create a sub-agebt to handle the implementation
+- delegate the testing to a specialized sub-agent
