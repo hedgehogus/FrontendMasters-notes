@@ -26,3 +26,6 @@ complete a security review of the pending changes on the current branch
 
 ## /consolidate-memory
 clear context window with memory from previous session
+
+## /compact
+Compacts the current conversation by summarizing it, freeing up context window space while preserving the essential thread of work so the session can continue.
