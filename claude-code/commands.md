@@ -35,3 +35,6 @@ Add phrases like:
 - let's use a task sub-agent to research this first
 - create a sub-agebt to handle the implementation
 - delegate the testing to a specialized sub-agent
+
+## close unused files
+claude-code files --close-unused
